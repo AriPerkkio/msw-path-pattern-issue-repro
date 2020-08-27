@@ -1,0 +1,24 @@
+{
+  "name": "msw-path-pattern-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel public/**",
+    "build": "parcel build public/index.html",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "jest": "^26.4.2",
+    "msw": "^0.20.5",
+    "parcel-bundler": "^1.12.4",
+    "whatwg-fetch": "^3.4.0"
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ]
+}
